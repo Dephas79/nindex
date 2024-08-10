@@ -29,7 +29,8 @@
 
 %% THE FACADE
 %% Make a macro to be our alias for the backend
--define(DB, ni_joedb).
+%%-define(DB, ni_joedb).
+-define(DB, ni_dets).
 
 init_db() ->
     ?DB:init_db().
